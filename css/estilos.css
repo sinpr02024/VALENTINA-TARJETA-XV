@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bodoni-moda {
+  font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.contenedor {
+  width: 95%;
+  max-width: 1280px;
+  margin: 200 auto;
+}
+
+body {
+  background-image: url(../img/WEB.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-size: contain;
+    background-position: center center;
+  }
+}
+
+.fondo {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.cumple {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .cumple h1 {
+    font-size: 3.5rem;
+    margin: 2rem 0;
+  }
+}
+
+.fecha {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .fecha {
+    margin-top: 6rem;
+  }
+}
+
+.fecha h2 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .fecha h2 {
+    font-size: 3.5rem;
+  }
+}
+
+.falta h2 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.horario {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .horario {
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+  }
+}
+
+.horario h2 {
+  font-size: 1rem;
+}
+
+.horario h3 {
+  font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+  .horario h1 {
+    font-size: 4rem;
+  }
+  .horario h2 {
+    font-size: 1.8rem;
+  }
+}
+
+.btn-img {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .btn-img {
+    width: 30%;
+  }
+}
+
+.music-video {
+  margin-top: 1rem;
+}
+
+.audio {
+  width: 70%;
+  margin-top: 2rem;
+  display: flex;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .audio {
+    width: 40%;
+  }
+}
